@@ -1,0 +1,174 @@
+body{
+    background: conic-gradient(from -49.97deg at 103.82% 78.71%, #FFFFFF 0deg, #000000 360deg);
+    display: flex;
+    justify-content: center;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+
+}
+
+/*SECCIÓN 1*/
+.SECTION1FOTO{
+    background-color: #374F72;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 900px;
+    width: 450px;
+
+    border-bottom-right-radius : 15px; 
+    border-bottom-left-radius : 15px;
+    border-top-right-radius : 15px; 
+    border-top-left-radius : 15px;
+
+    padding-top: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+
+}
+
+.DIV1foto{
+    display: flex;
+    justify-content: center;
+
+}
+
+.DIV2texto{
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+/*SECCIÓN 2*/
+.SECTION2COMPLEMENTOS{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left:35px;
+
+}
+
+.TITULO{
+    margin-top: -70px;
+    margin-bottom: 60px;
+}
+
+.BOTONES{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin:15px;
+
+}
+
+button{
+    background-color: transparent;
+    margin:0px;
+    padding:0px;
+    border:0px;
+
+}
+
+.grupoA{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin:30px;
+    margin-top:55px;
+
+}
+
+.grupoB{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin:30px;
+
+}
+
+/*ANIMACIONES*/
+.SECTION1FOTO:hover{
+    background: linear-gradient(180deg, #670DFF 0%, #7E099E 50%, #D4040A 100%);
+
+}
+
+/*emoción:) funcionooooó*/
+.imagenefecto{
+    margin-bottom: 791px;
+    opacity: 0;
+    position: absolute; 
+    left: 548px;
+}
+
+.imagenefecto:hover{
+    opacity: 1;
+    transition: 450ms opacity;
+}
+
+/*botones spotify*/
+.botonefectos{
+    opacity: 0;
+    position: absolute; 
+    left: 574px;
+
+}
+
+.botonefectos:hover{
+    opacity: 1;
+    transition: 450ms opacity;
+}
+
+/*botones instagram*/
+.botonefectoi{
+    opacity: 0;
+    position: absolute; 
+    left: 826px;
+
+}
+
+.botonefectoi:hover{
+    opacity: 1;
+    transition: 450ms opacity;
+}
+
+/*botones pinterest*/
+.botonefectop{
+    opacity: 0;
+    position: absolute; 
+    left: 1079px;
+
+}
+
+.botonefectop:hover{
+    opacity: 1;
+    background-color: transparent;
+    transition: 450ms opacity;
+}
+
+/*imagenes*/
+.grupoA img:hover{
+    transform: scale(1.1);
+}
+
+.grupoA:hover{
+    background: linear-gradient(180deg, #660CFF 0%, #FF007A 100%);
+    padding: 20px;
+}
+
+.grupoB img:hover{
+    transform: scale(1.1);
+}
+
+.grupoB:hover{
+    background: linear-gradient(180deg, #FF007A 0%, #660CFF 100%);
+    padding: 20px;
+ 
+}
+
+
